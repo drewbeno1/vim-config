@@ -48,7 +48,6 @@ map("n", "<leader>cp", function()
     if not vim.g.copilot_initialized then
       require("copilot").setup()
       require("copilot_cmp").setup()
-      require("CopilotChat").setup()
       vim.g.copilot_initialized = true
     end
     vim.cmd "Copilot enable"

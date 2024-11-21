@@ -14,3 +14,5 @@ vim.api.nvim_set_keymap('n', '<Leader>sc', '<cmd>lua require("tools.switch_case"
 require "hello"
 
 require('lualine').setup {}
+
+vim.o.timeoutlen = 5000

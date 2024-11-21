@@ -7,7 +7,6 @@ vim.api.nvim_create_user_command('EnableCopilot', function()
   if not _G.copilot_initialized then
     require("copilot").setup()
     require("copilot_cmp").setup()
-    require("CopilotChat").setup()
     _G.copilot_initialized = true
   end
 end, {})
