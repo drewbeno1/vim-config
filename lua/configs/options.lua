@@ -7,6 +7,7 @@ opt.relativenumber = true
 opt.list = true
 opt.listchars = "tab:➝ ,lead:·,space:·,trail:·,nbsp:+,eol:¬"
 opt.scrolloff = 10
+opt.signcolumn = "yes"
 
 -- feature toggles
 vim.g.format_on_save = false
