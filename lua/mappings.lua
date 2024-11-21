@@ -25,6 +25,7 @@ map(
 
 
 -- General
+map('n', '<leader>r', '<C-^>', { desc = 'Switch to previous buffer' })
 map("i", "<C-h>", "<Left>", { desc = "General Move Left" })
 map("i", "<C-l>", "<Right>", { desc = "General Move Right" })
 map("i", "<C-j>", "<Down>", { desc = "General Move Down" })

@@ -20,6 +20,8 @@ return {
           "html",
           "ts_ls",
           "vuels",
+	  -- "vue-language-server",
+	  -- ^ not allowed in ensure_installed. just run ":MasonInstall vue-language-server
           "tailwindcss",
           "lua_ls",
           "pyright",
