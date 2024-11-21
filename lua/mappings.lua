@@ -8,6 +8,22 @@ map("n", "E", vim.diagnostic.open_float, { desc = "LSP Open diagnostics" })
 -- Oil
 map("n", "!", "<CMD>Oil<CR>", { desc = "Open parent directory" })
 
+-- Telescope
+map("n", "<leader>fw", "<cmd>Telescope live_grep<CR>", { desc = "Telescope Live grep" })
+map("n", "<leader>fb", "<cmd>Telescope buffers<CR>", { desc = "Telescope Find buffers" })
+map("n", "<leader>cm", "<cmd>Telescope git_commits<CR>", { desc = "Telescope Git commits" })
+map("n", "<leader>gt", "<cmd>Telescope git_status<CR>", { desc = "Telescope Git status" })
+map("n", "<leader>pt", "<cmd>Telescope terms<CR>", { desc = "Telescope Pick hidden term" })
+map("n", "<leader>ff", "<cmd>Telescope find_files<cr>", { desc = "Telescope Find files" })
+map("n", "<leader>fr", "<cmd>Telescope oldfiles<cr>", { desc = "Telescope Find recent files" })
+map(
+  "n",
+  "<leader>fa",
+  "<cmd>Telescope find_files follow=true no_ignore=true hidden=true<CR>",
+  { desc = "Telescope Find all files" }
+)
+
+
 -- General
 map("i", "<C-h>", "<Left>", { desc = "General Move Left" })
 map("i", "<C-l>", "<Right>", { desc = "General Move Right" })
