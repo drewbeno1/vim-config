@@ -1,0 +1,31 @@
+return {
+  "nvim-treesitter/nvim-treesitter",
+  opts = {
+    ensure_installed = {
+      "css",
+      "csv",
+      "diff",
+      "dockerfile",
+      "go",
+      "gitignore",
+      "graphql",
+      "html",
+      "ini",
+      "javascript",
+      "json",
+      "lua",
+      "make",
+      "markdown",
+      "python",
+      "sql",
+      "toml",
+      "tsx",
+      "vim",
+      "vue",
+      "xml",
+      "yaml",
+    },
+    auto_install = "true",
+  },
+}
+
