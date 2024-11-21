@@ -9,6 +9,9 @@ opt.listchars = "tab:➝ ,lead:·,space:·,trail:·,nbsp:+,eol:¬"
 opt.scrolloff = 10
 opt.signcolumn = "yes"
 
+-- yank to clipboard
+opt.clipboard = "unnamedplus"
+
 -- feature toggles
 vim.g.format_on_save = false
 vim.g.copilot_enabled = false
