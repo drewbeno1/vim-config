@@ -7,6 +7,7 @@
 
 ## Plugins of Note:
 1. Lazy & Mason
+2. Oil
 
 
 ### Using the config: 

@@ -5,8 +5,8 @@ map("n", "[d", vim.diagnostic.goto_prev, { desc = "LSP Go to previous diagnostic
 map("n", "]d", vim.diagnostic.goto_next, { desc = "LSP Go to next diagnostic" })
 map("n", "E", vim.diagnostic.open_float, { desc = "LSP Open diagnostics" })
 
--- NvimTree
-map("n", "<C-n>", "<cmd>NvimTreeToggle<CR>", { desc = "NvimTree Toggle window" })
+-- Oil
+map("n", "!", "<CMD>Oil<CR>", { desc = "Open parent directory" })
 
 -- General
 map("i", "<C-h>", "<Left>", { desc = "General Move Left" })
