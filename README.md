@@ -6,5 +6,4 @@
 5. tailwind
 
 ### TODO:
-1. Fix typescript treesitter
-2. <ESC> is not removing highlighting
+2. "=AP" vim shortcut not working
