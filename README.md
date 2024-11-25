@@ -6,4 +6,3 @@
 5. tailwind
 
 ### TODO:
-2. "=AP" vim shortcut not working
