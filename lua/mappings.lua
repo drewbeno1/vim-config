@@ -8,6 +8,9 @@ map("n", "E", vim.diagnostic.open_float, { desc = "LSP Open diagnostics" })
 -- Oil
 map("n", "!", "<CMD>Oil<CR>", { desc = "Open parent directory" })
 
+-- nvim-tree
+map("n", "<C-n>", "<cmd>NvimTreeToggle<CR>", { desc = "NvimTree Toggle window" })
+
 -- Telescope
 map("n", "<leader>fw", "<cmd>Telescope live_grep<CR>", { desc = "Telescope Live grep" })
 map("n", "<leader>fb", "<cmd>Telescope buffers<CR>", { desc = "Telescope Find buffers" })
@@ -22,7 +25,6 @@ map(
   "<cmd>Telescope find_files follow=true no_ignore=true hidden=true<CR>",
   { desc = "Telescope Find all files" }
 )
-
 
 -- General
 map('n', '<leader>r', '<C-^>', { desc = 'Switch to previous buffer' })
