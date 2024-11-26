@@ -19,24 +19,14 @@ require "hello"
 
 require('lualine').setup({
     options = {
-        theme = 'kanagawa',
         component_separators = '|',
         section_separators = '',
         disabled_filetypes = {},
         transparent = true,
-    }
+    },
+	  sections = {
+	  	lualine_x = { { "fileformat", symbols = { unix = "" } }, "filetype" },
+	  },
 })
 
-require('kanagawa').setup({
-    colors = {
-        theme = {
-            all = {
-                ui = {
-                    bg_gutter = "none"
-                }
-            }
-        }
-    }
-})
-
-vim.cmd("colorscheme kanagawa")
+vim.cmd("colorscheme nord")
