@@ -5,4 +5,3 @@
 4. vue (with ts & js support)
 5. tailwind
 
-### TODO:
