@@ -1,3 +1,3 @@
 return {
-  "sainnhe/everforest", priority = 1000
+  "neanias/everforest-nvim", priority = 1000
 }

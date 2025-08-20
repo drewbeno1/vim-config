@@ -6,7 +6,7 @@
   "cmp_luasnip": { "branch": "master", "commit": "98d9cb5c2c38532bd9bdb481067b20fea8f32e90" },
   "copilot-cmp": { "branch": "master", "commit": "15fc12af3d0109fa76b60b5cffa1373697e261d1" },
   "copilot.lua": { "branch": "master", "commit": "0753a440b0eed13ff32366ef5e21c215012fd1d8" },
-  "everforest": { "branch": "master", "commit": "28d59e29d972e21f2e802ce916f28dcab30697ae" },
+  "everforest-nvim": { "branch": "main", "commit": "8db2bd8af38ed7b1bd12baa9a28858ff92e839bf" },
   "friendly-snippets": { "branch": "main", "commit": "572f5660cf05f8cd8834e096d7b4c921ba18e175" },
   "gitsigns.nvim": { "branch": "main", "commit": "6e3c66548035e50db7bd8e360a29aec6620c3641" },
   "hello.nvim": { "branch": "main", "commit": "f2e6e815c821884de6b1a473385d6a2ca64b72e9" },

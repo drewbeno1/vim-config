@@ -5,7 +5,7 @@ return {
   event = { "BufReadPost", "BufNewFile" },
   opts = {
     ensure_installed = {
-      "css","csv","diff","dockerfile","go","gitignore","graphql","html","ini",
+      "css","csv","diff","dockerfile","go","gitignore","graphql","html","htmldjango", "ini",
       "javascript","json","lua","make","markdown","markdown_inline","python",
       "sql","toml","tsx","typescript","vim","vimdoc","vue","xml","yaml","query"
     },
