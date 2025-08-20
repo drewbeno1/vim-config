@@ -17,6 +17,8 @@ opt.tabstop = 2
 opt.softtabstop = 2
 opt.autoindent = true
 opt.smartindent = true
+vim.opt.termguicolors = true
+vim.opt.redrawtime = 10000
 
 -- yank to clipboard
 opt.clipboard = "unnamedplus"

@@ -1,4 +1,3 @@
 return {
-  "shaunsingh/nord.nvim",
-  priority = 1000
+  "sainnhe/everforest", priority = 1000
 }
