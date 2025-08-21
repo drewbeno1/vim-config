@@ -19,13 +19,13 @@ require "hello"
 
 require('lualine').setup({
     options = {
-        component_separators = '|',
+        component_separators = '',
         section_separators = '',
         disabled_filetypes = {},
         transparent = true,
     },
 	  sections = {
-	  	lualine_x = { { "fileformat", symbols = { unix = "" } }, "filetype" },
+	 	lualine_x = { { "fileformat", symbols = { unix = "𐂂  ♡  𖤠 𐂯" } }, "filetype" },
 	  },
 })
 
